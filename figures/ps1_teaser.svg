@@ -1,48 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="506pt" height="150.74583333333334pt" viewBox="0 0 960 286">
-<title>Cited foundations and proposed TQRE synthesis</title>
-<text id="title0" data-containment="free" x="150.0" y="19.3" font-family="DejaVu Sans" font-size="20.0" font-weight="bold" text-anchor="middle" fill="#18324A">Economics</text>
-<text id="cite0" data-containment="free" x="150.0" y="45.28" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">Rogers et al. (2009)</text>
-<text id="title330" data-containment="free" x="480.0" y="19.3" font-family="DejaVu Sans" font-size="20.0" font-weight="bold" text-anchor="middle" fill="#18324A">Computer science</text>
-<text id="cite330" data-containment="free" x="480.0" y="45.28" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">Zhang et al. (2025)</text>
-<text id="title660" data-containment="free" x="810.0" y="19.3" font-family="DejaVu Sans" font-size="20.0" font-weight="bold" text-anchor="middle" fill="#18324A">Behavioral science</text>
-<text id="cite660" data-containment="free" x="810.0" y="45.28" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">Camerer (2004); Gupta (2024)</text>
-<rect id="matrix" x="66.0" y="63.0" width="170.0" height="58.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<polyline id="matrix-h" points="66.0,92.0 236.0,92.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<polyline id="matrix-v" points="151.0,63.0 151.0,121.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<text id="payoff0" data-containment="free" x="108.5" y="83.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">a, b</text>
-<text id="payoff1" data-containment="free" x="193.5" y="83.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">c, d</text>
-<text id="payoff2" data-containment="free" x="108.5" y="112.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">e, f</text>
-<text id="payoff3" data-containment="free" x="193.5" y="112.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">g, h</text>
-<rect id="belief0" x="347.0" y="65.0" width="70.0" height="53.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<text id="belief-label0" data-containment="free" x="382.0" y="94.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">k = 0</text>
-<polyline id="recursive0" points="418.0,91.0 432.0,91.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<polygon points="432.0,91.0 426.0,88.0 426.0,94.0" fill="#315EFB"/>
-<rect id="belief1" x="435.0" y="65.0" width="70.0" height="53.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<text id="belief-label1" data-containment="free" x="470.0" y="94.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">k = 1</text>
-<polyline id="recursive1" points="506.0,91.0 520.0,91.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<polygon points="520.0,91.0 514.0,88.0 514.0,94.0" fill="#315EFB"/>
-<rect id="belief2" x="523.0" y="65.0" width="70.0" height="53.0" fill="none" stroke="#315EFB" stroke-width="1.6"/>
-<text id="belief-label2" data-containment="free" x="558.0" y="94.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">k = 2</text>
-<ellipse id="head718" cx="731.0" cy="78.0" rx="13.0" ry="13.0" fill="none" stroke="#14877D" stroke-width="1.6"/>
-<polyline id="shoulders718" points="710.0,118.0 710.0,108.0 731.0,96.0 752.0,108.0 752.0,118.0" fill="none" stroke="#14877D" stroke-width="1.6"/>
-<ellipse id="head818" cx="831.0" cy="78.0" rx="13.0" ry="13.0" fill="none" stroke="#14877D" stroke-width="1.6"/>
-<polyline id="shoulders818" points="810.0,118.0 810.0,108.0 831.0,96.0 852.0,108.0 852.0,118.0" fill="none" stroke="#14877D" stroke-width="1.6"/>
-<polyline id="context-link" points="764.0,91.0 807.0,91.0" fill="none" stroke="#14877D" stroke-width="1.6"/>
-<polygon points="807.0,91.0 801.0,88.0 801.0,94.0" fill="#14877D"/>
-<text id="mechanism0" data-containment="free" x="150.0" y="151.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">Noisy strategic choice</text>
-<text id="advance0" data-containment="free" x="150.0" y="177.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#14877D">Extend to LLM decisions</text>
-<text id="mechanism330" data-containment="free" x="480.0" y="151.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">Recursive opponent beliefs</text>
-<text id="advance330" data-containment="free" x="480.0" y="177.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#14877D">Estimate depth and precision</text>
-<text id="mechanism660" data-containment="free" x="810.0" y="151.12" font-family="DejaVu Sans" font-size="18.0" font-weight="normal" text-anchor="middle" fill="#18324A">Human limits and persona cues</text>
-<text id="advance660" data-containment="free" x="810.0" y="177.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#14877D">Test within strategic games</text>
-<polyline id="synthesis0" points="150.0,187.0 150.0,207.0" fill="none" stroke="#14877D" stroke-width="1.6" stroke-dasharray="5 4"/>
-<polygon points="150.0,207.0 153.0,201.0 147.0,201.0" fill="#14877D"/>
-<polyline id="synthesis1" points="480.0,187.0 480.0,207.0" fill="none" stroke="#14877D" stroke-width="1.6" stroke-dasharray="5 4"/>
-<polygon points="480.0,207.0 483.0,201.0 477.0,201.0" fill="#14877D"/>
-<polyline id="synthesis2" points="810.0,187.0 810.0,207.0" fill="none" stroke="#14877D" stroke-width="1.6" stroke-dasharray="5 4"/>
-<polygon points="810.0,207.0 813.0,201.0 807.0,201.0" fill="#14877D"/>
-<rect id="evaluation" x="55.0" y="207.0" width="850.0" height="53.0" fill="none" stroke="#14877D" stroke-width="1.6"/>
-<text id="evaluation-title" data-containment="free" x="480.0" y="227.3" font-family="DejaVu Sans" font-size="20.0" font-weight="bold" text-anchor="middle" fill="#18324A">Planned TQRE evaluation of LLM strategic reasoning</text>
-<text id="evaluation-output" data-containment="free" x="480.0" y="251.78" font-family="DejaVu Sans" font-size="17.0" font-weight="normal" text-anchor="middle" fill="#18324A">Depth and precision estimates · Prompt and demographic sensitivity</text>
-<text id="legend" data-containment="free" x="480.0" y="281.1" font-family="DejaVu Sans" font-size="15.0" font-weight="normal" text-anchor="middle" fill="#18324A">Dashed arrows = proposed synthesis of the cited foundations; estimates are model-dependent.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="850" viewBox="0 0 1760 850">
+<title>Intermediary margin governance and real household access</title>
+<desc>Fixed or intermediary-chosen margins change intermediary effort and product selection, which affect price, completed purchases, farmer net earnings and household product access. Coordination cost affects farmer participation, and reputation information affects trust and willingness to pay.</desc>
+<style>text{font-family:Helvetica,Arial,sans-serif;fill:#17324D} .box{stroke-width:2} .edge{fill:none;stroke-width:3;marker-end:url(#arrow)} .edge-dashed{fill:none;stroke-width:2;stroke-dasharray:7 5;marker-end:url(#arrow-open)}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#607583"/></marker><marker id="arrow-open" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#607583" stroke-width="1.5"/></marker></defs>
+<text x="45" y="48" font-size="25" font-weight="700">Intermediary margin governance and real household access</text>
+<line class="edge" x1="325" y1="210.0" x2="410" y2="315.0" stroke="#3B73A8"/>
+<line class="edge" x1="325" y1="465.0" x2="410" y2="315.0" stroke="#39845A"/>
+<line class="edge" x1="190.0" y1="620" x2="190.0" y2="540" stroke="#B97916"/>
+<line class="edge" x1="710" y1="315.0" x2="805" y2="162.5" stroke="#6C58A6"/>
+<line class="edge" x1="710" y1="315.0" x2="805" y2="345.0" stroke="#6C58A6"/>
+<line class="edge" x1="1045" y1="162.5" x2="1120" y2="317.5" stroke="#6C58A6"/>
+<line class="edge" x1="1045" y1="345.0" x2="1120" y2="317.5" stroke="#6C58A6"/>
+<line class="edge" x1="1045" y1="552.5" x2="1120" y2="552.5" stroke="#B94D6B"/>
+<line class="edge" x1="1250.0" y1="490" x2="1250.0" y2="390" stroke="#B94D6B"/>
+<line class="edge" x1="1380" y1="317.5" x2="1435" y2="165.0" stroke="#2D7C83"/>
+<line class="edge" x1="1380" y1="317.5" x2="1435" y2="347.5" stroke="#2D7C83"/>
+<line class="edge" x1="710" y1="315.0" x2="1435" y2="550.0" stroke="#6C58A6"/>
+<line class="edge-dashed" x1="710" y1="315.0" x2="762.5" y2="620"/>
+<rect class="box" x="55" y="105" width="270" height="210" rx="15" fill="#DDEBFA" stroke="#3B73A8"/>
+<text x="190.0" y="285" text-anchor="middle" font-size="19" font-weight="700" fill="#17324D">Platform selling rule</text>
+<text x="190.0" y="247" text-anchor="middle" font-size="16" font-weight="400" fill="#17324D">Fixed intermediary margin</text>
+<text x="190.0" y="222" text-anchor="middle" font-size="16" font-weight="400" fill="#17324D">benchmark: m = 1</text>
+<text x="190.0" y="197" text-anchor="middle" font-size="16" font-weight="400" fill="#17324D"></text>
+<text x="190.0" y="172" text-anchor="middle" font-size="16" font-weight="400" fill="#17324D">OR</text>
+<text x="190.0" y="147" text-anchor="middle" font-size="16" font-weight="400" fill="#17324D"></text>
+<text x="190.0" y="122" text-anchor="middle" font-size="16" font-weight="400" fill="#17324D">Intermediary-chosen margin</text>
+<rect class="box" x="55" y="390" width="270" height="150" rx="15" fill="#E6F4EA" stroke="#39845A"/>
+<text x="190.0" y="510" text-anchor="middle" font-size="19" font-weight="700" fill="#19452C">Farmer participation</text>
+<text x="190.0" y="485" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C">and pooled supply</text>
+<text x="190.0" y="460" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C"></text>
+<text x="190.0" y="435" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C">Farmers choose whether to join</text>
+<text x="190.0" y="410" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C">and pool products</text>
+<rect class="box" x="55" y="620" width="270" height="125" rx="15" fill="#FFF1D6" stroke="#B97916"/>
+<text x="190.0" y="715" text-anchor="middle" font-size="19" font-weight="700" fill="#68450A">Coordination cost K</text>
+<text x="190.0" y="677" text-anchor="middle" font-size="16" font-weight="400" fill="#68450A">meetings, sorting,</text>
+<text x="190.0" y="652" text-anchor="middle" font-size="16" font-weight="400" fill="#68450A">joint delivery</text>
+<rect class="box" x="410" y="205" width="300" height="220" rx="15" fill="#E5E0F6" stroke="#6C58A6"/>
+<text x="560.0" y="395" text-anchor="middle" font-size="19" font-weight="700" fill="#33265E">Intermediary decisions</text>
+<text x="560.0" y="357" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">effort e</text>
+<text x="560.0" y="332" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">product search and selection</text>
+<text x="560.0" y="307" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">listing and delivery effort</text>
+<rect class="box" x="805" y="105" width="240" height="115" rx="15" fill="#E5E0F6" stroke="#6C58A6"/>
+<text x="925.0" y="190" text-anchor="middle" font-size="19" font-weight="700" fill="#33265E">Retail price</text>
+<text x="925.0" y="165" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">p = w + m</text>
+<rect class="box" x="805" y="280" width="240" height="130" rx="15" fill="#E5E0F6" stroke="#6C58A6"/>
+<text x="925.0" y="380" text-anchor="middle" font-size="19" font-weight="700" fill="#33265E">Products offered</text>
+<text x="925.0" y="342" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">availability and</text>
+<text x="925.0" y="317" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">product variety</text>
+<rect class="box" x="1120" y="245" width="260" height="145" rx="15" fill="#D9F0F2" stroke="#2D7C83"/>
+<text x="1250.0" y="360" text-anchor="middle" font-size="19" font-weight="700" fill="#174F54">Completed purchases</text>
+<text x="1250.0" y="322" text-anchor="middle" font-size="16" font-weight="400" fill="#174F54">q(m,e,r)</text>
+<rect class="box" x="805" y="490" width="240" height="125" rx="15" fill="#FDE4EA" stroke="#B94D6B"/>
+<text x="925.0" y="585" text-anchor="middle" font-size="19" font-weight="700" fill="#652238">Reputation information r</text>
+<text x="925.0" y="547" text-anchor="middle" font-size="16" font-weight="400" fill="#652238">sparse vs. verified</text>
+<text x="925.0" y="522" text-anchor="middle" font-size="16" font-weight="400" fill="#652238">seller record</text>
+<rect class="box" x="1120" y="490" width="260" height="125" rx="15" fill="#FDE4EA" stroke="#B94D6B"/>
+<text x="1250.0" y="585" text-anchor="middle" font-size="19" font-weight="700" fill="#652238">Household trust and</text>
+<text x="1250.0" y="560" text-anchor="middle" font-size="16" font-weight="400" fill="#652238">willingness to pay</text>
+<text x="1250.0" y="535" text-anchor="middle" font-size="16" font-weight="400" fill="#652238"></text>
+<text x="1250.0" y="510" text-anchor="middle" font-size="16" font-weight="400" fill="#652238">behavioral demand response</text>
+<rect class="box" x="1435" y="100" width="220" height="130" rx="15" fill="#E6F4EA" stroke="#39845A"/>
+<text x="1545.0" y="200" text-anchor="middle" font-size="19" font-weight="700" fill="#19452C">Farmer net earnings</text>
+<text x="1545.0" y="162" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C">pi_F = (w - c)q - K</text>
+<rect class="box" x="1435" y="275" width="220" height="145" rx="15" fill="#E6F4EA" stroke="#39845A"/>
+<text x="1545.0" y="390" text-anchor="middle" font-size="19" font-weight="700" fill="#19452C">Household product access</text>
+<text x="1545.0" y="352" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C">affordable availability</text>
+<text x="1545.0" y="327" text-anchor="middle" font-size="16" font-weight="400" fill="#19452C">and completed purchases</text>
+<rect class="box" x="1435" y="490" width="220" height="120" rx="15" fill="#E5E0F6" stroke="#6C58A6"/>
+<text x="1545.0" y="580" text-anchor="middle" font-size="19" font-weight="700" fill="#33265E">Intermediary profit</text>
+<text x="1545.0" y="542" text-anchor="middle" font-size="16" font-weight="400" fill="#33265E">pi_I = mq - g(e)</text>
+<rect class="box" x="410" y="620" width="705" height="125" rx="15" fill="#F2F4F6" stroke="#607583"/>
+<text x="762.5" y="715" text-anchor="middle" font-size="19" font-weight="700" fill="#253B48">Computational evaluation</text>
+<text x="762.5" y="677" text-anchor="middle" font-size="16" font-weight="400" fill="#253B48">grid search - baseline comparison</text>
+<text x="762.5" y="652" text-anchor="middle" font-size="16" font-weight="400" fill="#253B48">coordination-cost sensitivity</text>
+<text x="762.5" y="627" text-anchor="middle" font-size="16" font-weight="400" fill="#253B48">trust and demand sensitivity</text>
+<text x="410" y="780" font-size="15" font-style="italic" fill="#607583">Synthetic model outputs are hypotheses and calibration results, not field findings.</text></svg>
