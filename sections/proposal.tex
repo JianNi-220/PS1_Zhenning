@@ -1,50 +1,26 @@
 \section{Three connected research questions}
-Start from Intellectual Statement II. State the background, motivation, application, affected stakeholders, and strategic tension. Explain your proposal's relationship to a Nobel-recognized foundation and current research.
+Small farmers may pool products and sell through an intermediary who reaches households in underserved markets. The arrangement reduces search costs, but the intermediary's margin rule divides surplus and shapes effort and product selection. Coase explains why transaction costs shape organization~\cite{coase1937,nobelcoase1991}. Morgenstern et al. show that resale-platform margin competition can reduce product-search effort and that centralized margin decisions shift competition toward product selection~\cite{morgenstern2025}. I adapt this mechanism to farmer sales; their paper does not establish rural-consumption-inequality effects.
 
-\textbf{Q1---Economics:} [Which incentive, welfare, allocation, or institutional question needs an answer?]\par
-\textbf{Q2---Computation:} [Which model, algorithm, or evaluation makes the answer checkable?]\par
-\textbf{Q3---Behavior:} [Which belief, preference, reasoning limit, or learning mechanism could alter the prediction?]
+\textbf{Q1---Economics:} How do fixed and intermediary-chosen margins affect farmer net earnings and household product access when effort and coordination costs matter?\\
+\textbf{Q2---Computation:} Under which demand, cost, competition, and trust conditions does each rule improve participation, completed purchases, and surplus?\\
+\textbf{Q3---Behavior:} Does reputation information raise trust and willingness to pay enough to change which rule performs better?\\
+\textbf{Integrated question:} Which rule improves farmer earnings and real household access after effort, product selection, coordination cost, and trust are included? Figure~\ref{fig:teaser} displays the causal chain.
 
-Explain why the answers depend on one another. Cite relevant economics, computer-science, and behavioral-science papers. Refer to Figure~\ref{fig:teaser} and explain how its mechanism connects your questions.
+\section{Answer to the economics question}
+The players are a platform, a pooled farmer group, an intermediary, and households. The platform selects $R\in\{F,C\}$; farmers choose participation and pay coordination cost $K$; under $F$ the platform fixes margin $m$, while under $C$ the intermediary chooses $m$ and effort $e$. Let $w$ be the farmer payment, $c$ unit cost, $p=w+m$, and $q(m,e,r)$ completed purchases, with $r$ a reputation signal. Payoffs are
+\[\pi_F=(w-c)q-K,\qquad \pi_I=mq-g(e).\]
+I solve this sequential game by backward induction. The testable prediction is a tradeoff: a moderate fixed margin can lower retail price and raise purchases, while a chosen margin can increase intermediary profit and effort; very low margins may cause exit. This is a hypothesis, not an assumed benefit of collective selling.
 
-\section{Answer to Q1: incentives and intellectual lineage}
-State a provisional answer or falsifiable hypothesis. Define players, actions versus strategies, payoffs, timing, and information. Name the solution concept and cite its defining paper, such as Nash~\cite{nash1950} or Bayesian equilibrium~\cite{harsanyi1968}. State what the benchmark establishes and what it leaves unresolved. Distinguish hypothetical, observed, estimated, and inherited quantities.
-
-\section{Answer to Q2: method and evaluation}
-Explain the computational part of Figure~\ref{fig:teaser}: inputs, algorithm, baseline, metric, and a meaningful mathematical or computational check. Specify your smallest feasible experiment and one modification to the baseline. State the actual outputs obtained; label every untested outcome as expected or planned. Your Colab notebook and interactive game must explain the same research question and identify any differences in model or scope.
+\section{Answer to the computational question}
+The notebook implements a computational grid search. It searches feasible $(m,e)$ choices, applies farmer participation, and reports price, completed quantity, farmer earnings, intermediary profit, and surplus. With $q=12e\max\{0,4-m\}$, $w=6$, $c=4$, $K=12$, $g(e)=30e^2$, and fixed $m=1$, the synthetic baseline gives fixed $(e,q,\pi_F)=(0.60,21.60,31.20)$. The chosen-margin grid gives $(m,e,q,\pi_F)=(2.00,0.80,19.20,26.40)$ and intermediary profit $19.20$ versus $10.80$ under the fixed rule. These are synthetic outputs, not field findings. Sensitivity analysis varies coordination cost, demand, trust, effort cost, competition, and heterogeneous products; variety is a planned extension.
 
 \clearpage\balance
-\section{Answer to Q3: behavior and competing explanations}
-Identify a behavioral mechanism and a competing explanation. Describe evidence that would discriminate between them. Explain how this changes the economic model or computational design. State the limits of what the planned evidence can identify. Synthetic or simulated results do not establish human or real AI behavior. Include a feasible next test and what finding would change your mind.
-
+\section{Answer to the behavioral question}
+Households may not convert listed availability into purchases if they distrust an unfamiliar seller. Building on reputation experiments~\cite{resnick2006} and bounded rationality~\cite{simon1955}, I will estimate purchase probability at a given posted price under sparse versus verified reputation information. Purchase, trust, and willingness-to-pay measures distinguish a trust mechanism from a price-only explanation. The estimated response replaces $r$ in $q(m,e,r)$ and the simulation is rerun. A small online study cannot identify long-run farmer income or population welfare; a result showing no reputation effect or a consistent advantage for chosen margins would revise my hypothesis.
 
 \section{Advanced development and future directions}
-Build on a named Nobel laureate's defining work and cite the award record. Identify an enduring human question---such as cooperation, fairness, trust or collective choice---and explain what the foundation establishes. Add a relevant Turing Award foundation where it clarifies the computational lineage.
-
-Explain what is distinctive about today's environment and technology, what current research leaves unresolved, and how your proposal advances that boundary. State the economic, computational and behavioral contributions and the new insight their integration makes possible.
-
-\begin{table}[h]\caption{From laureate foundations to a new interdisciplinary contribution.}
-\begin{tabularx}{\columnwidth}{@{}p{1.6cm}Y@{}}\toprule
-\textbf{Horizon}&\textbf{Milestone and evidence}\\\midrule
-Foundation&[Laureate, defining work, enduring question and retained insight.]\\
-PS1&[Current-era setting, working baseline and meaningful check.]\\
-Next study&[New interdisciplinary explanation or design; a discriminating test.]\\
-Longer term&[Broader validation, benefits and reusable knowledge or tools.]\\
-2056&[Integrated contribution and evidence connecting it to the ambition below.]\\\bottomrule
-\end{tabularx}\end{table}
-
-\noindent\textbf{Expected 2056 Nobel Prize and Turing Award contribution statement.}
-By 2056, I aspire to be recognized for [theory, method or design] addressing [enduring human question] in [the current era's distinctive environment]. Building on [laureates and cited foundations], I will integrate [economics], [computer science] and [behavioral science] to advance [specific boundary]. Progress will be demonstrated by [milestones and evidence], with intellectual merits in [knowledge] and practical impacts for [people and institutions].
-
-\subsection*{Open Science Statement}
-\textbf{GitHub:} \GitHubLink\\
-\textbf{Google Colab:} \ColabLink\par
-[Identify available code, data or synthetic inputs, notebook, dependencies, outputs, release/commit and actual reuse terms. Give the shortest reproducible run instruction.]
-
-\subsection*{Statement of Contribution to the UN's SDGs}
-\textbf{Hugging Face:} \DemoLink\\
-Through an open-access [tool], this project aims to support \textbf{SDG 4---Quality Education}~\cite{sdg4} by helping [audience] learn [concept] through [interaction]. [State access needs, learning instructions and a feasible evaluation.] Distinguish the resource released from benefits that remain to be evaluated.
-
-\subsection*{Submission milestones}
-First draft: September 13, 2026, 11:00 P.M. Beijing time (UTC+8). Class review: September 14. Proposed: rebuttal September 16 and revised submission September 20, both at 11:00 P.M. Update Appendix~\ref{app:abstract} with each reflection and revision.
-
+This proposal extends Coase's transaction-cost question~\cite{coase1937,nobelcoase1991} to digital intermediation between farmers and underserved households. Newell and Simon's Turing-recognized work on computational decision processes~\cite{turing1975} motivates an inspectable model of bounded choices. Today's platforms can jointly set margins, rank products, and display reputation. Current resale-platform theory does not determine whether these rules raise farmer earnings after coordination costs or turn listed products into trusted completed purchases.
+\begin{table}[h]\caption{Roadmap from foundation to contribution.}\begin{tabularx}{\columnwidth}{@{}p{1.25cm}Y@{}}\toprule\textbf{Stage}&\textbf{Milestone}\\\midrule Foundation&Coase on organization; Newell and Simon on computational decisions.\\ PS1&Fixed/chosen margin baseline with coordination cost.\\ Next&Trust evidence, product heterogeneity, competition, and field validation.\\ 2056&Adaptive, auditable rules that improve access and producer welfare.\\\bottomrule\end{tabularx}\end{table}
+\noindent\textbf{Expected 2056 Nobel Prize and Turing Award contribution statement.} By 2056, I aspire to develop a general theory and open computational system for designing intermediated markets under transaction costs and bounded trust. I will connect economic incentives, auditable simulation, and behavioral evidence to identify rules that improve access without weakening producer participation.
+\subsection*{Open Science Statement}\textbf{GitHub:} \GitHubLink\\\textbf{Colab:} \ColabLink\\\textbf{Submitted commit:} \SubmittedCommit\\The repository contains the model, requirements, notebook, tests, synthetic inputs, and saved outputs. A clean run reproduces the baseline and sensitivity files.
+\subsection*{Statement of Contribution to the UN's SDGs}\textbf{Hugging Face:} \DemoLink\\The planned Margin Rule Lab will support \textbf{SDG 4---Quality Education}~\cite{sdg4} by letting learners vary margins, coordination costs, effort costs, and reputation and observe synthetic access and earnings outcomes. Educational benefit will be checked with a short pre/post question.
